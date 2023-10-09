@@ -1,6 +1,4 @@
-### This is for the latest 4.y.y XU4 kernel as of April 2018
-
-If you are running the 3.y.y kernel then please use the master branch
+### This is for the latest 6.1.y XU4 kernel as of October 2023
 
 ### What does it do?
 
