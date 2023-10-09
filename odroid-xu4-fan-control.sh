@@ -17,8 +17,8 @@ fi
 
 
 TEMPERATURE_FILE="/sys/devices/virtual/thermal/thermal_zone0/temp"
-FAN_MODE_FILE="/sys/devices/platform/pwm-fan/hwmon/hwmon0/automatic"
-FAN_SPEED_FILE="/sys/devices/platform/pwm-fan/hwmon/hwmon0/pwm1"
+FAN_MODE_FILE="/sys/devices/platform/pwm-fan/automatic"
+FAN_SPEED_FILE="/sys/devices/platform/pwm-fan/pwm1"
 TEST_EVERY=3 #seconds
 new_fan_speed_default=80
 LOGGER_NAME=odroid-xu4-fan-control
