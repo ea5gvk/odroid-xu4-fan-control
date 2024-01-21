@@ -25,7 +25,7 @@ to the runlevels
 
     cd /etc/init.d/
     #adjust to correct, absolute path below
-    sudo ln -s ~/odroid-xu4-fan-control /etc/init.d/odroid-fan-controller
+    sudo cp ~/odroid-xu4-fan-control /etc/init.d/odroid-fan-controller
     sudo update-rc.d odroid-fan-controller defaults
 
 you can also use the following to start the controller
@@ -37,3 +37,7 @@ or
     sudo /etc/init.d/odroid-fan-controller stop
 
 to stop the controller
+
+Modificar el archivo odroid-fan-controller que va a estar en /etc/inid.d/
+dir=""  PONER EL DIRETORIO DONDE VA ESTAR EL ARCHIVO
+cmd="/opt/odroid-xu4-fan-control/odroid-xu4-fan-control.sh"  -- POR EJEMPLO ruta completa donde esta el scripts ejecutable.
